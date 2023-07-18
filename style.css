@@ -113,6 +113,21 @@ html{
 .banner-image img{
     width: 500px;
 }
+.team{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF9FC;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+}
+.team-description{
+    text-align: end;
+    width: 30%;
+}
+.team-description h1{
+    font-size: 30px;
+}
 
 /* online games funny video  */
 .online-game-description{
@@ -126,6 +141,8 @@ html{
     gap: 20px;
     justify-content: center;
 
+}
+.card:hover{
 }
 .card{
     display: flex;
@@ -166,11 +183,20 @@ html{
 }
 
 /* game name  */
+.name:hover{
+    outline: 2px solid #FF42A5;
+    padding: 5px 5px ;
+    border-radius: 50px;
+    color: #FF42A5;
+    
+}
 
 .name{
     display: flex;
     align-items: center;
     gap:15px;
+    padding: 7px;
+    position: relative;
 }
 .name p{
     font-size: 20px;
@@ -329,6 +355,17 @@ html{
     .copy-right{
         margin-left: 10px;
     }
+    .team{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team-description{
+        text-align: center;
+        width: 400px;
+    }
+    .image img{
+        width: 350px;
+    }
     
     
 }
@@ -405,5 +442,15 @@ html{
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
 
+    }
+    .team{
+        flex-direction: column;
+    }
+    .team-description{
+        text-align: center;
+        width: 100%;
+    }
+    .image img{
+        width: 500px;
     }
 }
