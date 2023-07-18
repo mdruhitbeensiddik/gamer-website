@@ -132,6 +132,35 @@ html{
 .card img{
     width: 300px;
 }
+.instant-play-description h1{
+    font-size: 35px;
+}
+.instant-play-description{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 250px;
+}
+.instant-play-image img{
+    width: 500px;
+}
+.mini-pic img{
+    width: 250px;
+    position: relative;
+    top: -200px;
+    left: -100px;
+}
+.play-instantly{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.mini-pic1 img{
+    width: 250px;
+    position: relative;
+    top: -200px;
+    right: -350px;
+}
 
 
 
@@ -185,7 +214,38 @@ html{
     .card img{
         width: 300px;
     }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .instant-play-description h1{
+        font-size: 35px;
+    }
+    .instant-play-description{
+        width: 100%;
+        text-align: center;
+    }
+    .instant-play-image img{
+        width: 300px;
+    }
+    .mini-pic img{
+        width: 150px;
+        position: relative;
+        top: -100px;
+        left: -30px;
+    }
+    .mini-pic1 img{
+        width: 150px;
+        position: relative;
+        top: -100px;
+        right: -200px;
+    }
+    .instant-play-description{
+        margin-bottom: 0px;
+    }
     
+        .instant-play-image{
+            margin-bottom: 0px;
+        }
     
     
     
@@ -227,5 +287,31 @@ html{
     }
     .card img{
         width: 300px;
+    }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .instant-play-description h1{
+        font-size: 35px;
+    }
+    .instant-play-description{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .instant-play-image img{
+        width: 500px;
+    }
+    .mini-pic img{
+        width: 150px;
+        position: relative;
+        top: -100px;
+        left: -30px;
+    }
+    .mini-pic1 img{
+        width: 150px;
+        position: relative;
+        top: -100px;
+        left: 400px;
     }
 }
