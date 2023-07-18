@@ -42,6 +42,9 @@ html{
     border-radius: 30px;
     margin: 10px 10px 10px 0px; 
 }
+.white{
+    color: white;
+}
 
 /* navbar style  */
 .logo h1{
@@ -162,6 +165,67 @@ html{
     right: -350px;
 }
 
+/* game name  */
+
+.name{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.name p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.games-name{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.five{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 70px;
+}
+.four{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 70px;
+}
+.footer-background{
+    background-color: #0B0223;
+    margin-top: 100px;
+    padding: 70px 0px;
+    
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.footer-logo img{
+    width: 80px;
+    height: 40px;
+}
+.footer-links, .footer-icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.footer-links a{
+    text-decoration: none;
+
+}
+.footer-icon a{
+    font-size: 35px;
+    margin: 25px;
+}
+.copy-right a, .copy-right p{
+    font-weight: 600;
+}
+
 
 
 
@@ -243,10 +307,28 @@ html{
         margin-bottom: 0px;
     }
     
-        .instant-play-image{
-            margin-bottom: 0px;
-        }
-    
+    .instant-play-image{
+        margin-bottom: 0px;
+    }
+    .games-name{
+        margin-top: 100px;
+        margin-buttom: 100px;
+    }
+    .five, .four{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+
+    }
+    .footer-links, .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .copy-right{
+        margin-left: 10px;
+    }
     
     
 }
@@ -313,5 +395,15 @@ html{
         position: relative;
         top: -100px;
         left: 400px;
+    }
+    .games-name{
+        margin-top: 100px;
+        margin-buttom: 100px;
+    }
+    .five, .four{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+
     }
 }
