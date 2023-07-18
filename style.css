@@ -102,6 +102,7 @@ html{
 }
 .banner{
     background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -110,7 +111,27 @@ html{
     width: 500px;
 }
 
+/* online games funny video  */
+.online-game-description{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.online-game-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.card img{
+    width: 300px;
+}
 
 
 
@@ -148,6 +169,24 @@ html{
         width: 300px;
         margin-top: 10px;
     }
+    .online-game-description{
+        max-width: 400px;
+        margin-top: 100px;
+    }
+    .online-game-cards{
+        max-width: 400px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .card{
+        max-width: 300px;
+    }
+    .card img{
+        width: 300px;
+    }
+    
+    
     
     
 }
@@ -167,8 +206,26 @@ html{
         justify-content: center;
 
     }
+    
     .banner-image img{
         width: 400px;
         margin-top: 10px;
+    }
+    .online-game-description{
+        align-items: center;
+        margin-top: 50px;
+    }
+    .online-game-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        max-width: 300px;
+    }
+    .card img{
+        width: 300px;
     }
 }
