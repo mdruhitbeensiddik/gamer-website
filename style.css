@@ -42,6 +42,9 @@ html{
     border-radius: 30px;
     margin: 10px 10px 10px 0px; 
 }
+.primary-button:hover{
+    cursor: pointer;
+}
 .white{
     color: white;
 }
@@ -142,8 +145,7 @@ html{
     justify-content: center;
 
 }
-.card:hover{
-}
+
 .card{
     display: flex;
     flex-direction: column;
@@ -152,6 +154,23 @@ html{
 .card img{
     width: 300px;
 }
+.card:hover img {
+    filter: brightness(40%);
+    cursor: pointer;
+}
+
+.card:hover:before {
+    content: "\f04b";
+    font-family: FontAwesome;
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .instant-play-description h1{
     font-size: 35px;
 }
@@ -188,6 +207,7 @@ html{
     padding: 5px 5px ;
     border-radius: 50px;
     color: #FF42A5;
+    cursor: pointer;;
     
 }
 
