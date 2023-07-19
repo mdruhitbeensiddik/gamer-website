@@ -400,6 +400,9 @@ body{
         font-size: 10px;
     }
     
+    .banner{
+        background-image: none;
+    }
     
 }
 
@@ -497,5 +500,8 @@ body{
     }
     .image img{
         width: 500px;
+    }
+    .banner{
+        background-image: none;
     }
 }
