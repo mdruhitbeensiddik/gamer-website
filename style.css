@@ -7,6 +7,9 @@ html{
     font-family: 'Work Sans', sans-serif;
    
 }
+body{
+    margin: 0;
+}
 /* primary colors  */
 .pink-color-back{
     background-color: #FF42A5;
@@ -265,6 +268,7 @@ html{
     justify-content: center;
     gap: 20px;
     align-items: center;
+    padding-left: 50px;
 }
 
 .name {
@@ -432,6 +436,7 @@ html{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         margin-top: 70px;
+        padding-left: 0;
     }
     .name img{
         width: 30px;
